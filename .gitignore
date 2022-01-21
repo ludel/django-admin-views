@@ -16,3 +16,4 @@ __pycache__
 htmlcov/
 build
 .vscode/*
+django_admin_views.egg-info
