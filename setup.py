@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
 
-from custom_admin_views import __version__
-
 with open('README.md') as readme_file:
     README = readme_file.read()
 
@@ -25,5 +23,5 @@ setup(
     name='django-admin-custom-views',
     packages=find_packages(exclude=['sample_project']),
     url='https://github.com/ludel/django-admin-views',
-    version=__version__,
+    version='1.0.3',
 )

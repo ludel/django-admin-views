@@ -2,11 +2,8 @@ from functools import update_wrapper
 from typing import List
 
 from django.contrib import admin
-from django.contrib.sites.models import Site
 from django.core.exceptions import PermissionDenied
 from django.urls import path
-
-admin.site.unregister(Site)
 
 
 def custom_view(function=None, *, permissions=None, description=None, switch_field=None):
