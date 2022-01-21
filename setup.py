@@ -23,5 +23,5 @@ setup(
     name='django-admin-custom-views',
     packages=find_packages(exclude=['sample_project']),
     url='https://github.com/ludel/django-admin-views',
-    version='1.0.3',
+    version='1.0.4',
 )
